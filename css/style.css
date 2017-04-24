@@ -61,37 +61,50 @@ h1 span {
         /*mise en page form -----------------------------------*/
 
 main form {
+  font-size: 15px;
   display: flex;
   flex-flow: row nowrap;
-  /*background-color: red;*/
   border: 1px solid lightgray;
-  border-radius: 3px;
+  box-shadow: 0.1px 0.1px 2px lightgray;
+  border-radius: 5px;
   color: inherit;
-
+  padding: 4px;
+  overflow-x: hidden;
 }
 
-form div {
-  border: 1px solid yellow;
-  /*width: 20px;*/
+form div:first-child {
+  /*border: 1px solid yellow;*/
+  padding-left: 8px;
 }
 
 
 form input {
   background-color: inherit;
-  border: 1px solid green;
+  border: none;
+  /*border: 1px solid black;*/
+  color: #484848!important;
+  opacity: 1;
   /*width: 100px;*/
+  line-height: 30px;
+  margin-left: 3px;
+}
+
+form span {
+   font-size: 1.3em;
+   margin: 0;
+   padding: 0;
 }
 
 main .where input {
-  width: 80px;
+  width: 55px;
 }
 
 
 main .when input {
-  width: 140px;
+  width: 150px;
 }
 
 
 main .howmany input {
-  width: 70px;
+  width: 90px;
 }
