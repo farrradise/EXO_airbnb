@@ -10,6 +10,7 @@
   color: #484848;
   font-weight: normal;
   line-height: 1.43;
+  letter-spacing: -0.7px;
 }
 
 body {
@@ -44,7 +45,7 @@ header a > i {
 }
 
 h1 {
-  letter-spacing: -0.6px;
+  /*letter-spacing: -0.6px;*/
   font-size: 22px;
   font-weight: 300;
   margin-bottom: 2em;
@@ -141,7 +142,7 @@ main nav:first-of-type li {
 
 main nav:first-of-type li a{
   font-weight: bold;
-  letter-spacing: 0.4px;
+  /*letter-spacing: 0.4px;*/
 }
 
 main nav ul li:first-child a {
@@ -152,6 +153,9 @@ main nav ul li:first-child a {
 }
       /*mise en page des galeries ---------------------------*/
 
+main section {
+  margin: 3rem auto;
+}
 main section div {
   display: flex;
   flex-flow: row nowrap;
@@ -163,6 +167,24 @@ main section figure {
   margin: 4px;
 }
 
-main section figure img {
+main .activity figure img {
   width: 180px;
+}
+
+main section h2 {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 1.5em;
+}
+
+section figure figcaption i {
+  color: #008489
+}
+
+section figure figcaption .comm {
+  font-size: 0.8em;
+}
+
+section figure figcaption span:first-of-type {
+  font-weight: bold;
 }
