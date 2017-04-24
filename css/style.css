@@ -3,6 +3,7 @@
 /*code couleur -----------------*/
 /*rose #FF5A5F -----------------*/
 /*gris #484848 -----------------*/
+/*bleu #008489 -----------------*/
 
 * {
   font-family: sans-serif;
@@ -46,6 +47,7 @@ h1 {
   letter-spacing: -0.6px;
   font-size: 22px;
   font-weight: 300;
+  margin-bottom: 2em;
 }
 
 h1 span {
@@ -87,6 +89,7 @@ form input {
   /*border: 1px solid black;*/
   color: #484848!important;
   opacity: 1;
+  font-size: 14px;
   /*width: 100px;*/
   line-height: 30px;
   margin-left: 3px;
@@ -99,17 +102,17 @@ form span {
 }
 
 main .where input {
-  width: 55px;
+  width: 50px;
 }
 
 
 main .when input {
-  width: 150px;
+  width: 135px;
 }
 
 
 main .howmany input {
-  width: 90px;
+  width: 80px;
 }
 
         /*mise en page menu de navigation secondaire ---------------------------*/
@@ -141,6 +144,12 @@ main nav:first-of-type li a{
   letter-spacing: 0.4px;
 }
 
+main nav ul li:first-child a {
+  /*line-height: inherit;*/
+  color: #008489;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #008489;
+}
       /*mise en page des galeries ---------------------------*/
 
 main section div {
