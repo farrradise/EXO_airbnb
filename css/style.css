@@ -58,7 +58,7 @@ h1 span {
 /*mise en page main ---------------*/
 
 
-        /*mise en page form -----------------------------------*/
+      /*mise en page formulaire de recherche -----------------------------------*/
 
 main form {
   font-size: 15px;
@@ -72,7 +72,7 @@ main form {
   overflow-x: hidden;
 }
 
-form div:first-child {
+form > div:first-child {
   /*border: 1px solid yellow;*/
   padding-left: 8px;
 }
@@ -107,4 +107,28 @@ main .when input {
 
 main .howmany input {
   width: 90px;
+}
+
+        /*mise en page menu de navigation secondaire ---------------------------*/
+
+main ul {
+  justify-content: flex-start;
+  display: flex;
+  flex-flow: row nowrap;
+  font-variant-caps: all-small-caps;
+  font-weight: bold;
+  border: 1px solid green;
+}
+
+main nav:first-of-type li {
+  margin: 3px;
+  border: 1px solid yellow;
+  list-style: none;
+}
+
+      /*mise en page des galeries ---------------------------*/
+
+main section div {
+  display: flex;
+  flex-flow: row nowrap;
 }
