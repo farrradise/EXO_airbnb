@@ -372,8 +372,70 @@ footer > div nav li {
   }
 
   .accommodation div .displaytablet {
-    width: 410px!important;
+    width: 410px;
   }
 
+
+  /*mise en page estimer les revenus -----------------*/
+  .revenus .displaytablet {
+    float: right;
+    max-width: 370px;
+    width: 50%;
+  }
+
+  .revenus div div h2 {
+    width: 95%;
+    margin: 0em;
+    font-size: 25px!important;
+  }
+
+  .revenus div div {
+    height: 300px;
+    overflow: hidden;
+    font-size: 1.4em;
+  }
+
+  .revenus a {
+    margin-bottom: 2em;
+  }
+
+  /*mise en page footer ----------------------*/
+
+  footer form select{
+    display: block;
+    max-width: 160px;
+  }
+
+  footer form {
+    border-bottom: none;
+  }
+
+  footer nav .navfooter {
+    display: block;
+    /*border: 1px solid red;*/
+    /*display: flex;*/
+    padding: 0;
+    margin: 0;
+    /*width: 80%;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+  }
+
+  footer form, footer nav, footer .navfooter > li {
+    display: inline-block;
+  }
+
+  footer .navfooter > li {
+    font-weight: bold;
+    /*align-items: flex-start;*/
+    margin: 0 0 14px 0;
+    padding: 0;
+  }
+
+  footer .navfooter > li ul {
+    position: relative;
+    left: -2.7em;
+    font-size: 0.9em;
+  }
 
 }
