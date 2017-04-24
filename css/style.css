@@ -148,3 +148,12 @@ main section div {
   flex-flow: row nowrap;
   overflow-x: scroll;
 }
+
+main section figure {
+  width: auto;
+  margin: 4px;
+}
+
+main section figure img {
+  width: 180px;
+}
