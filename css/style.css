@@ -361,7 +361,18 @@ footer > div nav li {
 
   main .displaytablet {
     display: block;
-    width: 240px!important;
+  }
+
+  main h2 {
+    font-size: 2em!important;
+  }
+
+  .activity div .displaytablet, .destination div .displaytablet {
+  width: 200px;
+  }
+
+  .accommodation div .displaytablet {
+    width: 410px!important;
   }
 
 
