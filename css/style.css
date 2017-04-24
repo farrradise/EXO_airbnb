@@ -19,7 +19,7 @@ body {
 }
 
 .displaytablet, .displaylaptop, header nav, main form label, main form button,
-footer nav .navfooter, .lihidden {
+footer nav .navfooter, .lihidden, main form .when i, main form .howmany i {
   display: none;
   /*pour cacher les autres reso de photos et d'autres détails en mobile first*/
 }
@@ -298,6 +298,35 @@ footer > div nav li {
 
   h1 span {
     font-size: 1em;
+  }
+
+  /*mise en page main --------------------------*/
+
+    /*mise en page formulaire main */
+  main form {
+    padding: 0px;
+    height: 45px;
+    overflow: hidden;
+    /*line-height: 500px!important;*/
+  }
+
+  main form div {
+    height: 100%;
+    width: 37%;
+    border: 1px solid lightgray;
+  }
+
+  main form div:first-of-type {
+    width: 25%;
+  }
+
+  main form div i {
+    display: inline !important;
+    margin: 0 8px 0 15px;
+  }
+
+  main form div span {
+    display: none;
   }
 
 }
