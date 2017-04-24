@@ -156,6 +156,7 @@ main nav ul li:first-child a {
 main section {
   margin: 3rem auto;
 }
+
 main section div {
   display: flex;
   flex-flow: row nowrap;
@@ -187,4 +188,53 @@ section figure figcaption .comm {
 
 section figure figcaption span:first-of-type {
   font-weight: bold;
+}
+
+/*pour mettre le bouton plus à droite dans les galeries */
+.more {
+  position: relative;
+}
+.more a {
+  position: absolute;
+  right: 0;
+  top: 16px;
+}
+
+
+/*mise en page estimation revenue */
+
+.revenus div {
+  display: block;
+  height: auto;
+  /*position: relative;*/
+}
+
+.revenus div div {
+  /*margin-top: 250px;*/
+  font-size: 15px;
+  letter-spacing: normal;
+  height: 200px;
+}
+
+.revenus div div h2 {
+  font-size: 1.4em;
+}
+
+main .revenus img{
+  width: 100%;
+  /*max-width: 500px;*/
+  /*position: absolute;*/
+  /*position: relative;*/
+  /*left: 0;*/
+  /*margin: -10px;*/
+  padding: 0;
+}
+
+main .revenus a {
+  background-color: #008489;
+  font-weight: bold;
+  color: white;
+  padding: 9px 15px;
+  border-radius: 4px;
+  font-size: 0.9rem;
 }
