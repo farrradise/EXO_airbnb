@@ -109,17 +109,17 @@ form span {
 }
 
 main .where input {
-  width: 50px;
+  width: 45px;
 }
 
 
 main .when input {
-  width: 135px;
+  width: 125px;
 }
 
 
 main .howmany input {
-  width: 80px;
+  width: 75px;
 }
 
         /*mise en page menu de navigation secondaire ---------------------------*/
@@ -273,12 +273,13 @@ footer > div img {
 
 footer > div nav ul {
   display: flex;
+  width: 100%;
   flex-flow: row nowrap;
 }
 
 footer > div nav li {
   margin: 0 5px;
-  font-size: 0.9em;
+  font-size: 0.8em;
   position: relative;
   top: -15px;
   left: -42px;
