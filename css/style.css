@@ -248,6 +248,9 @@ footer {
 
 footer form {
   text-align: center;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding: 15px 0px;
 }
 
 footer form select {
@@ -284,6 +287,24 @@ footer > div nav li {
   top: -15px;
   left: -42px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*----------------------MISE EN PAGE TABLETTE ----------------------------------------*/
 
@@ -325,8 +346,23 @@ footer > div nav li {
     margin: 0 8px 0 15px;
   }
 
+  main form div input {
+  padding-top: 6px;
+  }
+
   main form div span {
     display: none;
   }
+
+  /*mise en page galerie */
+  main img:first-child {
+    display: none;
+  }
+
+  main .displaytablet {
+    display: block;
+    width: 240px!important;
+  }
+
 
 }
