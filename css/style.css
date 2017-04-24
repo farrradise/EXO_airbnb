@@ -284,3 +284,20 @@ footer > div nav li {
   top: -15px;
   left: -42px;
 }
+
+/*----------------------MISE EN PAGE TABLETTE ----------------------------------------*/
+
+@media (min-width: 500px) {
+
+  /*mise en page en-tete---------------------- */
+  h1 {
+    font-size: 40px;
+    font-weight:500;
+    /*margin-bottom: 2em;*/
+  }
+
+  h1 span {
+    font-size: 1em;
+  }
+
+}
