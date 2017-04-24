@@ -1,0 +1,97 @@
+/*mise en page générale -----------------------------------------*/
+
+/*code couleur -----------------*/
+/*rose #FF5A5F -----------------*/
+/*gris #484848 -----------------*/
+
+* {
+  font-family: sans-serif;
+  color: #484848;
+  font-weight: normal;
+  line-height: 1.43;
+}
+
+body {
+  margin: 20px;
+}
+
+.displaytablet, .displaylaptop, header nav, main form label, main form button {
+  display: none;
+  /*pour cacher les autres reso de photos et d'autres détails en mobile first*/
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/*mise en page header ---------------*/
+
+
+header img {
+  width: 40px;
+}
+
+header a {
+  position: relative;
+}
+
+header a > i {
+  position: absolute;
+  top: -15px;
+  font-weight:100;
+}
+
+h1 {
+  letter-spacing: -0.6px;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+h1 span {
+  color: #ff5a5f;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+
+/*mise en page main ---------------*/
+
+
+        /*mise en page form -----------------------------------*/
+
+main form {
+  display: flex;
+  flex-flow: row nowrap;
+  /*background-color: red;*/
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  color: inherit;
+
+}
+
+form div {
+  border: 1px solid yellow;
+  /*width: 20px;*/
+}
+
+
+form input {
+  background-color: inherit;
+  border: 1px solid green;
+  /*width: 100px;*/
+}
+
+main .where input {
+  width: 80px;
+}
+
+
+main .when input {
+  width: 140px;
+}
+
+
+main .howmany input {
+  width: 70px;
+}
