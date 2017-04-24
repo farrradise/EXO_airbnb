@@ -3,6 +3,7 @@
 /*code couleur -----------------*/
 /*rose #FF5A5F -----------------*/
 /*gris #484848 -----------------*/
+/*gris clair #767676 -----------*/
 /*bleu #008489 -----------------*/
 
 * {
@@ -17,13 +18,18 @@ body {
   margin: 20px;
 }
 
-.displaytablet, .displaylaptop, header nav, main form label, main form button {
+.displaytablet, .displaylaptop, header nav, main form label, main form button,
+footer nav .navfooter, .lihidden {
   display: none;
   /*pour cacher les autres reso de photos et d'autres détails en mobile first*/
 }
 
 a {
   text-decoration: none;
+}
+
+li {
+    list-style: none;
 }
 
 
@@ -137,7 +143,6 @@ main nav ul {
 main nav:first-of-type li {
   margin: 7px;
   /*border: 1px solid yellow;*/
-  list-style: none;
 }
 
 main nav:first-of-type li a{
@@ -222,11 +227,6 @@ section figure figcaption span:first-of-type {
 
 main .revenus img{
   width: 100%;
-  /*max-width: 500px;*/
-  /*position: absolute;*/
-  /*position: relative;*/
-  /*left: 0;*/
-  /*margin: -10px;*/
   padding: 0;
 }
 
@@ -237,4 +237,48 @@ main .revenus a {
   padding: 9px 15px;
   border-radius: 4px;
   font-size: 0.9rem;
+}
+
+
+
+/*mise en page footer ---------------------- */
+footer {
+  color: #767676;
+}
+
+footer form {
+  text-align: center;
+}
+
+footer form select {
+  height: 55px;
+  width: 40%;
+  font-size: 1.1em;
+  margin: 0.5em;
+  /*box-shadow: 1px 1px 1px lightgray;*/
+  /*background-color: white;*/
+  /*border: 1px solid lightgray;*/
+}
+
+footer > div img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  width: 30px;
+  position: relative;
+  top: 8px;
+}
+
+footer > div nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+footer > div nav li {
+  margin: 0 5px;
+  position: relative;
+  top: -15px;
+  left: -42px;
 }
