@@ -534,4 +534,42 @@ footer > div nav li {
     margin-left: 10%;
   }
 
+  /*mise en page du formulaire de recherche -----------------*/
+  main form div label {
+    display: block;
+    margin: 9px 0 0 16px;
+    padding: 0;
+  }
+
+  main form {
+    height: auto;
+  }
+
+  main form div i {
+    display: none!important;
+  }
+
+  main form div input {
+    margin: 0 0 10px 15px;
+    padding: 0;
+    font-size: 1.1em;
+    width: 50%!important;
+  }
+
+  main form .howmany {
+    position: relative;
+  }
+
+  main form div button {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    padding: 10px 25px;
+    font-size: 1.2em;
+    background-color: #FF5A5F;
+    border-radius: 5px;
+    color : white;
+    font-weight:600;
+    border: none;
+  }
 }
