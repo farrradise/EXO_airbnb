@@ -468,10 +468,6 @@ footer > div nav li {
     width: auto;
   }
 
-  footer div nav{
-
-  }
-
   footer .lihidden {
     display: inline-block;
   }
@@ -572,4 +568,39 @@ footer > div nav li {
     font-weight:600;
     border: none;
   }
+
+
+
+  /*mise en page galeries ------------*/
+
+  main .displaytablet {
+    display: none;
+  }
+
+  main .displaylaptop {
+    display: block;
+  }
+
+  main section div {
+    overflow-x: hidden;
+  }
+
+  main section div:last-child {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+  }
+
+  main .activity div figure {
+    /*width: 10px;*/
+    width: 20%;
+  }
+
+  main section div figure img {
+    width: 100%!important;
+  }
+
+
+
+
 }
