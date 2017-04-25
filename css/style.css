@@ -475,8 +475,56 @@ footer > div nav li {
   footer .lihidden {
     display: inline-block;
   }
-/*
-  footer div nav li{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------MISE EN PAGE ORDI ----------------------------------------*/
+
+@media (min-width: 900px) {
+
+  main {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /*mise en page header */
+  header div:first-of-type {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header div:first-of-type nav, header div:first-of-type nav li {
     display: inline-block;
-  }*/
+  }
+
+  header div:first-of-type nav li {
+    margin: 0 15px;
+  }
+
+  header div:first-of-type i {
+    display: none;
+  }
 }
