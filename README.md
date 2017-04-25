@@ -8,7 +8,7 @@ Html & CSS uniquement.
 
 Objectifs de la semaine :
 
-*L'exercice consiste à reproduire le plus fidèlement possible la page d'accueil d'Airbnb avec pour contrainte principale le respect du --*responsive*-- et l'utilisation des --*flexbox*--.*
+*L'exercice consiste à reproduire le plus fidèlement possible la page d'accueil d'Airbnb avec pour contrainte principale le respect du __responsive__ et l'utilisation des __flexbox__.*
 
 Cette reproduction va jusqu'à « estimer mes revenus » compris suivi du footer juste en dessous.
 
