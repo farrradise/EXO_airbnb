@@ -600,7 +600,39 @@ footer > div nav li {
     width: 100%!important;
   }
 
+  /*mise en page estimer revenus -----------------*/
 
+  main .revenus {
+    display: flex;
+    flex-flow: row nowrap;
+  }
 
+  main .revenus div div {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  main .revenus div .displaylaptop {
+    order: 1;
+    max-width: 470px;
+    margin-left: 5%;
+  }
+/*
+  .revenus div div h2 {
+    width: 95%;
+    margin: 0em;
+    font-size: 25px!important;
+  }
+
+  .revenus div div {
+    height: auto;
+    overflow: hidden;
+    font-size: 1.4em;
+  }
+*/
+  .revenus a {
+    max-width: 200px;
+    margin-bottom: 2em;
+  }
 
 }
