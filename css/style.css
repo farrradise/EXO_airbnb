@@ -527,4 +527,11 @@ footer > div nav li {
   header div:first-of-type i {
     display: none;
   }
+
+  /*mise en page du titre principal------------*/
+  header div h1 {
+    max-width: 60%;
+    margin-left: 10%;
+  }
+
 }
