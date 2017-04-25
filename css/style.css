@@ -308,7 +308,7 @@ footer > div nav li {
 
 /*----------------------MISE EN PAGE TABLETTE ----------------------------------------*/
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
 
   /*mise en page en-tete---------------------- */
   h1 {
@@ -401,24 +401,27 @@ footer > div nav li {
 
   /*mise en page footer ----------------------*/
 
+  footer {
+    border-top: 1px solid lightgray;
+    overflow-x: hidden;
+  }
+
   footer form select{
     display: block;
     max-width: 160px;
   }
 
   footer form {
-    border-bottom: none;
+    border: none;
+    width: 30%;
   }
 
   footer nav .navfooter {
     display: block;
-    /*border: 1px solid red;*/
-    /*display: flex;*/
     padding: 0;
-    margin: 0;
-    /*width: 80%;*/
-    /*position: absolute;*/
-    /*top: 0;*/
+    margin: 60px 0 0 0;
+    position: relative;
+    top: 10px;
   }
 
   footer form, footer nav, footer .navfooter > li {
@@ -427,8 +430,9 @@ footer > div nav li {
 
   footer .navfooter > li {
     font-weight: bold;
+    font-size: 0.9em;
     /*align-items: flex-start;*/
-    margin: 0 0 14px 0;
+    margin: 0 ;
     padding: 0;
   }
 
@@ -436,6 +440,43 @@ footer > div nav li {
     position: relative;
     left: -2.7em;
     font-size: 0.9em;
+    padding-top: 10px;
   }
 
+  footer .navfooter > li:nth-of-type(2) {
+    position: relative;
+    top : -18px;
+  }
+
+
+  footer .navfooter > li:nth-of-type(3) {
+    position: relative;
+    top : -38px;
+  }
+
+  footer div {
+    margin-top: 20px;
+    width: 100%;
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  footer div p, footer div nav {
+    display: inline-block;
+    width: auto;
+  }
+
+  footer div nav{
+
+  }
+
+  footer .lihidden {
+    display: inline-block;
+  }
+/*
+  footer div nav li{
+    display: inline-block;
+  }*/
 }
